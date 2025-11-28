@@ -1,4 +1,4 @@
-<img width="283" height="626" alt="Captura de pantalla 2025-11-28 130843" src="https://github.com/user-attachments/assets/7040667f-cfee-4fd9-bc5d-405c17ba7e4d" /># ☁️🏀 **BASKETBALL SCORE APP** ⭐  
+# ☁️🏀 **BASKETBALL SCORE APP** ⭐  
 *La herramienta definitiva para gestionar tus partidos con estilo.* ✨  
 
 Basketball Score es una aplicación Android nativa desarrollada en **Java**, diseñada para llevar el control total de un partido de baloncesto. Este proyecto no solo cuenta puntos, ¡sino que demuestra el poder del desarrollo móvil moderno! 🚀  
@@ -10,10 +10,10 @@ Basketball Score es una aplicación Android nativa desarrollada en **Java**, dis
 ### ✨ Pantalla Principal  
 ### 🏆 Pantalla de Resultados  
 
-<img src="<img width="283" height="626" alt="Captura de pantalla 2025-11-28 130843" src="https://github.com/user-attachments/assets/882f1d8c-660e-4dc2-9e11-2786dc169111" />
-" width="300">  
-<img src="<img width="292" height="627" alt="Captura de pantalla 2025-11-28 130957" src="https://github.com/user-attachments/assets/35a8b1d5-f40b-457b-a219-56734b2a1bb0" />
-" width="300">
+<img width="283" height="626" alt="Captura de pantalla 2025-11-28 130843" src="https://github.com/user-attachments/assets/4227dc58-453c-4d4b-b017-d7f34ecbd0fe" />
+<img width="292" height="627" alt="Captura de pantalla 2025-11-28 130957" src="https://github.com/user-attachments/assets/ce7216e3-8a78-48ba-a512-e467131d36d0" />
+
+
 
 Control total con diseño limpio ☁️  
 ¡Celebra la victoria! 🎉  
