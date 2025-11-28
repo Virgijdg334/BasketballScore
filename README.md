@@ -1,90 +1,55 @@
-🏀 Basketball Score App
+# ☁️🏀 **BASKETBALL SCORE APP** ⭐  
+*La herramienta definitiva para gestionar tus partidos con estilo.* ✨  
 
-Basketball Score es una aplicación Android nativa desarrollada en Java diseñada para gestionar el marcador de un partido de baloncesto de forma sencilla e intuitiva. Este proyecto implementa las mejores prácticas de desarrollo Android, incluyendo el uso de Data Binding, gestión de recursos y navegación entre actividades.
+Basketball Score es una aplicación Android nativa desarrollada en **Java**, diseñada para llevar el control total de un partido de baloncesto. Este proyecto no solo cuenta puntos, ¡sino que demuestra el poder del desarrollo móvil moderno! 🚀  
 
-📱 Capturas de Pantalla
+---
 
-Pantalla Principal
+## 📸 **GALERÍA DE CAPTURAS** 🌟
 
-Pantalla de Resultados
+### ✨ Pantalla Principal  
+### 🏆 Pantalla de Resultados  
 
-<img src="image_0d0d95.png" width="300">
-
+<img src="image_0d0d95.png" width="300">  
 <img src="image_0d0d76.png" width="300">
 
-Gestión de puntos en tiempo real
+Control total con diseño limpio ☁️  
+¡Celebra la victoria! 🎉  
 
-Visualización del ganador y reinicio
+---
 
-🚀 Funcionalidades Principales
+## 🚀 **FUNCIONALIDADES ESTELARES**
 
-1. Gestión de Marcador
+### 1. 🏀 **Gestión de Marcador Pro**
+- **Controles Independientes:** Paneles separados para Local y Visitante.  
+- **Acciones Rápidas:** Botones para sumar +1 y +2 puntos.  
+- **Corrección de Errores:** Botón de restar -1 (¡porque todos nos equivocamos! 😅).  
+- **🛡️ Escudo Anti-Negativos:** Lógica inteligente que impide marcadores bajo cero.
 
-Controles independientes para equipo Local y Visitante.
+---
 
-Botones para sumar +1 y +2 puntos (Tiros libres y Canastas).
+### 2. 🎨 **Diseño de Interfaz (UI)**
+- **Material Design:** CardView sobre un fondo suave ☁️  
+- **Colores Vibrantes:**  
+  - Naranja Basket `#FF5722`  
+  - Gris Neutro para equilibrio  
+- **Tipografía:** Grande, clara y audaz.
 
-Botón para restar -1 (Corrección de errores).
+---
 
-Validación lógica: El marcador nunca puede ser negativo.
+### 3. 🔄 **Flujo de Juego**
+- **Árbitro Automático:** La app decide el ganador o empate al instante. 🤖  
+- **Reinicio Mágico:** El botón **"Jugar de nuevo"** deja el marcador limpio (0–0) para la revancha.
 
-2. Interfaz de Usuario (UI)
+---
 
-Diseño moderno basado en Material Design.
+## 💻 **IMPLEMENTACIÓN TÉCNICA** 🛠️
 
-Uso de CardViews para separar visualmente a los equipos.
+### ⚡ 1. Data Binding  
+Activado en *build.gradle* para un código más limpio y directo.
 
-Paleta de colores temática (Naranja Basket, Gris Neutro, Negro Elegante).
-
-Diseño responsivo utilizando ConstraintLayout.
-
-3. Navegación y Flujo
-
-Paso de datos: Transferencia de las puntuaciones finales a la pantalla de resultados mediante Intent Extras.
-
-Cálculo de Ganador: La segunda pantalla determina automáticamente si ganó el Local, el Visitante o hubo Empate.
-
-Reinicio Inteligente: El botón "Jugar de nuevo" utiliza FLAG_ACTIVITY_CLEAR_TOP para limpiar la pila de actividades y comenzar una partida nueva desde cero (0-0).
-
-🛠️ Tecnologías y Herramientas
-
-Este proyecto ha sido construido utilizando las siguientes tecnologías:
-
-Lenguaje: Java
-
-Entorno: Android Studio
-
-Arquitectura UI: XML Layouts
-
-Vinculación de Vistas: Data Binding / View Binding (Reemplazando findViewById).
-
-Componentes Clave:
-
-ConstraintLayout
-
-CardView
-
-Intents (Explícitos y Flags)
-
-📂 Estructura del Proyecto
-
-com.example.basket
-├── 📄 MainActivity.java      # Lógica de la pantalla de juego (Suma/Resta/Validación)
-├── 📄 ScoreActivity.java     # Lógica de resultados y reinicio de partida
-├── 📄 Constants.java         # Constantes para las claves de los Intents
-└── 📂 res
-    ├── 📂 layout             # Diseños XML (activity_main.xml, activity_score.xml)
-    └── 📂 values             # Recursos (colors.xml, strings.xml, themes.xml)
-
-
-✨ Instalación
-
-Clona este repositorio.
-
-Abre el proyecto en Android Studio.
-
-Sincroniza el proyecto con los archivos Gradle.
-
-Ejecuta la aplicación en un emulador o dispositivo físico.
-
-Desarrollado como parte de la Tarea Final del 1º Trimestre.
+```gradle
+// build.gradle (Module: app)
+buildFeatures {
+    dataBinding = true
+}
